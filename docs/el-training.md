@@ -148,9 +148,9 @@
 
 ### ステップ6: RuboCop を設定しよう
 - Linter/ Formatter として RuboCop を設定しましょう
-- 当カリキュラムでは Rails アプリ作成にあわせて規約を調整済の [retrieva-cop](https://github.com/retrieva/retrieva-cop) を利用します
-- `Gemfile` で [retrieva-cop](https://github.com/retrieva/retrieva-cop) をインストールしましょう
-- Circle CI を導入して、PR作成時に RuboCop が実行されるようにしましょう
+- `Gemfile` で [Rubocop](https://github.com/rubocop/rubocop) をインストールしましょう
+  - Rubocopの設定は、別途用意してある `.rubocop.yml` を流用しましょう
+- GitHub Actions を導入して、PR作成時に RuboCop が実行されるようにしましょう
   - 難易度を考えて、サポーターが実施する形でも構いません
 - 以降、コーディング規約はサポーター・レビュワーと相談しながら必要に応じて更新していきましょう
 
